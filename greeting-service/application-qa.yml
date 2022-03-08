@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: greeting-service
+    
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo"
+
+#Configuração do spring actuator para liberar a visualização de mais configurações no endpoint {host}/actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
