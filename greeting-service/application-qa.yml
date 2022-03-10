@@ -3,7 +3,7 @@ spring:
     name: greeting-service
     
 greeting-service:
-  greeting: "Olá"
+  greeting: "Pronto"
   default-value: "Mundo"
 
 #Configuração do spring actuator para liberar a visualização de mais configurações no endpoint {host}/actuator
